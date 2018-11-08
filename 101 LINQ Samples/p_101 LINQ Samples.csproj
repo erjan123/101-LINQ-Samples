@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B15D81F-9D21-4521-B751-5F8D57D54E71}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_101_LINQ_Samples</RootNamespace>
+    <AssemblyName>101 LINQ Samples</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LINQ  - Grouping Operators\C#\GroupingOperators\e_GroupingOperators.csproj">
+      <Project>{82ac891d-339d-4fe4-861d-8b7e628358b5}</Project>
+      <Name>e_GroupingOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Aggregate Operators\C#\AggregateOperators\k_AggregateOperators.csproj">
+      <Project>{df4d8cf3-90f4-4108-a8d5-73dfb1a57e69}</Project>
+      <Name>k_AggregateOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Conversion Operators\C#\ConversionOperators\g_ConversionOperators.csproj">
+      <Project>{db224815-7139-4a09-b3c7-1294e98ba754}</Project>
+      <Name>g_ConversionOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Custom Sequence Operators\C#\CustomSequenceOperators\m_CustomSequenceOperators.csproj">
+      <Project>{fa28275f-e365-466a-848a-9988dec0da4e}</Project>
+      <Name>m_CustomSequenceOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Element Operators\C#\ElementOperators\h_ElementOperators.csproj">
+      <Project>{448f27c6-9ba0-4bfa-b6ad-39d15f6b4c31}</Project>
+      <Name>h_ElementOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Generation Operators\C#\GenerationOperators\i_GenerationOperators.csproj">
+      <Project>{916425a2-8e7d-47fd-acb7-6e7947f1290b}</Project>
+      <Name>i_GenerationOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Join Operators\C#\JoinOperators\o_JoinOperators.csproj">
+      <Project>{d4751573-75c4-45ed-b29d-7f0aab4c5ed4}</Project>
+      <Name>o_JoinOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Miscellaneous Operators\C#\MiscellaneousOperators\l_MiscellaneousOperators.csproj">
+      <Project>{8a33c2c3-daed-4cd3-9a9d-1580c8e44b1e}</Project>
+      <Name>l_MiscellaneousOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Ordering Operators\C#\OrderingOperators\d_OrderingOperators.csproj">
+      <Project>{05350a97-9d66-40bc-90b5-bcd0dcfe1aab}</Project>
+      <Name>d_OrderingOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Partitioning Operators\C#\PartitioningOperators\c_PartitioningOperators.csproj">
+      <Project>{6bb93ffa-c410-4620-a0e0-a1ff88e5838b}</Project>
+      <Name>c_PartitioningOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Projection Operators\C#\ProjectionOperators\b_ProjectionOperators.csproj">
+      <Project>{72fdc6e8-09dd-4c89-b054-f3d3f2cb8b15}</Project>
+      <Name>b_ProjectionOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Quantifiers\C#\Quantifiers\j_Quantifiers.csproj">
+      <Project>{d89f1c62-62ee-4ce8-a9f7-5bfe3448f98a}</Project>
+      <Name>j_Quantifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Query Execution\C#\QueryExecution\n_QueryExecution.csproj">
+      <Project>{8f9ceccb-ab5e-4d94-8fc2-7e14a9871c51}</Project>
+      <Name>n_QueryExecution</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Restriction Operators\C#\RestrictionOperators\a_RestrictionOperators.csproj">
+      <Project>{ef74d02f-b99f-470f-b27c-8b83961e9940}</Project>
+      <Name>a_RestrictionOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ - Set Operators\C#\SetOperators\f_SetOperators.csproj">
+      <Project>{daa8c328-6840-465e-92e5-44d43ea2b251}</Project>
+      <Name>f_SetOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LinqSamplesCommon\LinqSamplesCommon.csproj">
+      <Project>{69011370-3f14-4d1d-b1de-c5f89999594f}</Project>
+      <Name>LinqSamplesCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

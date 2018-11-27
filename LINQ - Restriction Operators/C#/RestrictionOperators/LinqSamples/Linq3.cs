@@ -36,20 +36,20 @@ namespace RestrictionOperators
         {
             List<Products.Product> products = Products.GetProductList();
 
-            #region Make Sure to try yourself before looking at the code 
+            IEnumerable<string> inStockProductsMoreThenThreeQuery =
+                                            from prod in products
+                                            where prod.UnitsInStock > 0 && prod.UnitPrice > 3
+                                            select prod.ProductName;
 
-                var expensiveInStockProducts =
-                    from prod in products
-                    where prod.UnitsInStock > 0 && prod.UnitPrice > 3.00M
-                    select prod;
+            IEnumerable<string> inStockProductsMoreThenThreeLambda =
+                                products
+                                .Where(prod => prod.UnitsInStock > 0 && prod.UnitPrice > 3)
+                                .Select(prod => prod.ProductName); 
 
-                Console.WriteLine("In-stock products that cost more than 3.00:");
-                foreach (var product in expensiveInStockProducts)
-                {
-                    Console.WriteLine("{0} is in stock and costs more than 3.00.", product.ProductName);
-                }
 
-            #endregion
+            Console.WriteLine("Hello Stock!*********************************************************************");
+            foreach(string s in inStockProductsMoreThenThreeQuery)
+                Console.WriteLine(s);
         }
     }
 }

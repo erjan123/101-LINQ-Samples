@@ -35,5 +35,11 @@ namespace ProjectionOperators
 
             #endregion
         }
+
+        public void DataSetLinq11A()
+        {
+            var products = testDS.Tables["Products"].AsEnumerable();
+
+        }
     }
 }

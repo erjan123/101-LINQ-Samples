@@ -31,5 +31,26 @@ namespace ProjectionOperators
 
             #endregion
         }
+
+        public void DataSetLinq9A()
+        {
+            var words = testDS.Tables["Words"].AsEnumerable();
+
+            IEnumerable<string> upperLower =
+                                        from str in words
+                                        select 
+                                        "Uppercase : " + str.Field<string>("word").ToUpper() +
+                                        " Lowercase : " + str.Field<string>("word").ToLower();
+
+            IEnumerable<string> upperLowerLambda =
+                                             words.Select(str => "Uppercase : " + str.Field<string>("word").ToUpper() +
+                                                                 " Lowercase : " + str.Field<string>("word").ToLower());
+
+            foreach (var item in upperLowerLambda)
+            {
+                Console.WriteLine(item);
+            }
+
+        }
     }
 }

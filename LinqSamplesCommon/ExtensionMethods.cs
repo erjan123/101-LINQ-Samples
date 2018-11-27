@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LinqSamplesCommon
+namespace LinqSamplesCommon.ExtensionHelpers
 {
-    public static class ExtensionMethods
+    public static class Extensions
     {
+
         // int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
         // numbers.ForEach(x => Console.WriteLine(x));
         public static void ForEach<T>(this IEnumerable<T> source, Action<T> action )

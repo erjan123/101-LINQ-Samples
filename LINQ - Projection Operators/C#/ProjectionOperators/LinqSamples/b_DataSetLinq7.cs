@@ -29,28 +29,5 @@ namespace ProjectionOperators
 
             #endregion
         }
-
-        public void DataSetLinq7A()
-        {
-            var products = testDS.Tables["Products"].AsEnumerable();
-
-            IEnumerable<string> productNames =
-                                    from names in products
-                                    select names.Field<string>("ProductName");
-
-            IEnumerable<string> productNames2 =
-                                    products
-                                    .Select(names => names.Field<string>("ProductName"));
-            Console.WriteLine("Hello from DatasetLinq7A !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-            //foreach (string name in productNames2)
-            //{
-            //    Console.WriteLine(name);
-            //}
-
-            productNames2.ToList().ForEach(number => Console.WriteLine(number));
-
-            // foreach (string prodNames in productNames)
-            //    Console.WriteLine(productNames);
-        }
     }
 }

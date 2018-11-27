@@ -38,42 +38,6 @@ namespace ProjectionOperators
                 }
 
             #endregion
-
-        }
-        
-        public void DataSetLinq6A()
-        {
-            var numbers = testDS.Tables["Numbers"].AsEnumerable();
-            // Lets make this example first simpler
-
-            int[] myLovelyNumbers = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            IEnumerable<int> myLovelyNumbers2 = Enumerable.Range(1, 100);
-            Random myRandom = new Random();
-            byte[] bytes = new byte[100];
-            myRandom.NextBytes(bytes);
-
-            var updatedLovelyNumbers =
-                        from num in bytes
-                        select num + 1;
-
-            updatedLovelyNumbers.ToList().ForEach(number => Console.WriteLine(number));
-
-            foreach(var v in numbers)
-                Console.WriteLine(v.Field<int>(0));
-   
-            var newNumbers =
-                    from num in numbers
-                    select (num.Field<int>("number") + 1);
-
-            var newNumbers2 =
-                     numbers
-                     .Select(num => num.Field<int>("number") + 1);
-
-
-            Console.WriteLine("Hello World !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-
-            foreach(var number in newNumbers2)
-                Console.WriteLine(number);
         }
     }
 }

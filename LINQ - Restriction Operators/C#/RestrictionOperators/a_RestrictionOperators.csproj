@@ -46,7 +46,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinqSamples\Linq1 - Copy.cs" />
     <Compile Include="LinqSamples\Linq1.cs" />
     <Compile Include="LinqSamples\Linq2.cs" />
     <Compile Include="LinqSamples\Linq3.cs" />

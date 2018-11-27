@@ -26,42 +26,26 @@ namespace _101_LINQ_Samples
         {
             #region 1.RestrictionOperators
 
-            LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
-             samples_a.Linq1();
-             samples_a.Linq1A();
+            //LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
 
-            // samples_a.Linq2();
-            // samples_a.Linq2A();
-            // samples_a.Linq3();
-            // samples_a.Linq3A();
-            //  samples_a.Linq4();  
-            //  samples_a.Linq4A();
-
-            // samples_a.Linq5();
-           //  samples_a.Linq5A();
+            //samples_a.Linq1();
+            //samples_a.Linq2();
+            //samples_a.Linq3();
+            //samples_a.Linq4();
+            //samples_a.Linq5();
 
             #endregion RestrictionOperators
 
             #region 2.ProjectionOperators
 
-            //LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
-
+            // LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
+            // 
             // samples_b.DataSetLinq6();
-            // samples_b.DataSetLinq6A();
             // samples_b.DataSetLinq7();
-            // samples_b.DataSetLinq7A();
             // samples_b.DataSetLinq8();
-            // samples_b.DataSetLinq8A();
             // samples_b.DataSetLinq9();
-            // samples_b.DataSetLinq9A();
-            //  samples_b.DataSetLinq10();
-            //  samples_b.DataSetLinq10A();
-
-
-
+            // samples_b.DataSetLinq10();
             // samples_b.DataSetLinq11();
-            // samples_b.DataSetLinq11A();
-
             // samples_b.DataSetLinq12();
             // samples_b.DataSetLinq13();
             // samples_b.DataSetLinq14();

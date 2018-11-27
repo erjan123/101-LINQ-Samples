@@ -30,35 +30,5 @@ namespace ProjectionOperators
 
             #endregion
         }
-
-        public void DataSetLinq8A()
-        {
-            var numbers = testDS.Tables["Numbers"].AsEnumerable();
-            int[] numbersTemp = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-            string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-
-            //for (int i = 0; i < numbersTemp.Length; i++)
-            //{
-            //    Console.WriteLine(strings[numbersTemp[i]]);
-            //}
-            IEnumerable<string> result1 = 
-                      from num in numbersTemp
-                      select strings[num];
-
-            IEnumerable<string> result2 = numbersTemp.Select(num => strings[num]);
-
-            IEnumerable<string> result3 =
-                                    from num in numbers
-                                    select strings[num.Field<int>("number")];
-
-            //foreach (var item in result3)
-            //{
-            //    Console.WriteLine(item);
-            //}
-
-            result3.ToList().ForEach(number => Console.WriteLine(number));
-
-
-        }
     }
 }

@@ -39,10 +39,11 @@ namespace _101_LINQ_Samples
             //samples_a.Linq3();
             //samples_a.Linq3A();
 
-            samples_a.Linq4();
-            samples_a.Linq4A();
+            //samples_a.Linq4();
+            //samples_a.Linq4A();
 
-            //samples_a.Linq5();
+            // This sample can't be implemented with Query syntax
+              samples_a.Linq5();
 
             #endregion RestrictionOperators
 

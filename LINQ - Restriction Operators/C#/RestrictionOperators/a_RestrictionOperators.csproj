@@ -51,6 +51,7 @@
     <Compile Include="LinqSamples\Linq3.cs" />
     <Compile Include="LinqSamples\Linq4.cs" />
     <Compile Include="LinqSamples\Linq5.cs" />
+    <Compile Include="LinqSamples\OfTypeLinq5A.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

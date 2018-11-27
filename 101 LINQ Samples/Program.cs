@@ -28,7 +28,7 @@ namespace _101_LINQ_Samples
             // "where" - Filter values based on a predicate function
             // "OfType" - Filter values based on their ability to be as a specified type
 
-            LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
+            //LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
 
             //samples_a.Linq1();
             //samples_a.Linq1A();
@@ -43,7 +43,8 @@ namespace _101_LINQ_Samples
             //samples_a.Linq4A();
 
             // This sample can't be implemented with Query syntax
-              samples_a.Linq5();
+            //samples_a.Linq5();
+            //samples_a.OfTypeLinq5A();
 
             #endregion RestrictionOperators
 

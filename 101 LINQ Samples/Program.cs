@@ -24,11 +24,15 @@ namespace _101_LINQ_Samples
     { 
         static void Main(string[] args)
         {
-            #region 1.RestrictionOperators
+            #region 1.RestrictionOperators (Filtering)
+            // "where" - Filter values based on a predicate function
+            // "OfType" - Filter values based on their ability to be as a specified type
 
-            //LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
+            LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
 
-            //samples_a.Linq1();
+            samples_a.Linq1();
+            samples_a.Linq1A();
+
             //samples_a.Linq2();
             //samples_a.Linq3();
             //samples_a.Linq4();

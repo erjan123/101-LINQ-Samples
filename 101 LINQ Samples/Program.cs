@@ -50,9 +50,11 @@ namespace _101_LINQ_Samples
 
             #region 2.ProjectionOperators
 
-            // LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
-            // 
-            // samples_b.DataSetLinq6();
+             LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
+             
+             samples_b.DataSetLinq6();
+             samples_b.DataSetLinq6A();
+
             // samples_b.DataSetLinq7();
             // samples_b.DataSetLinq8();
             // samples_b.DataSetLinq9();

@@ -33,10 +33,12 @@ namespace _101_LINQ_Samples
             //samples_a.Linq1();
             //samples_a.Linq1A();
 
-            samples_a.Linq2();
-            samples_a.Linq2A();
+            //samples_a.Linq2();
+            //samples_a.Linq2A();
 
-            //samples_a.Linq3();
+              samples_a.Linq3();
+              samples_a.Linq3A();
+
             //samples_a.Linq4();
             //samples_a.Linq5();
 

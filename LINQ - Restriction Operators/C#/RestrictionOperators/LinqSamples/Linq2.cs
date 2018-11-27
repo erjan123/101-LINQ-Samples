@@ -1,7 +1,6 @@
 ﻿using LinqSamplesCommon.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 
 namespace RestrictionOperators
@@ -9,7 +8,7 @@ namespace RestrictionOperators
     public partial class LinqSamplesRestrictionOperators
     {   
         // Find all numbers that are out of stock
-        [Description("This sample uses the where clause to find all products that are out of stock.")]
+        // This sample uses the where clause to find all products that are out of stock.
         public void Linq2()
         {
             List<Products.Product> products = Products.GetProductList();

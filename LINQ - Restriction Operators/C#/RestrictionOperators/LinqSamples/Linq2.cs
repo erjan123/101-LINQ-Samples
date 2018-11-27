@@ -17,11 +17,12 @@ namespace RestrictionOperators
             #region Make Sure to try yourself before looking at the code 
 
                 var soldOutProducts =
-                    from prod in products
-                    where prod.UnitsInStock == 0
-                    select prod;
+                        from prod in products
+                        where prod.UnitsInStock == 0
+                        select prod;
 
-                Console.WriteLine("Sold out products:");
+                Console.WriteLine("With Query Syntax - Sold out products:");
+                Console.WriteLine();
                 foreach (var product in soldOutProducts)
                 {
                     Console.WriteLine("{0} is sold out!", product.ProductName);
@@ -37,12 +38,11 @@ namespace RestrictionOperators
 
             #region Make Sure to try yourself before looking at the code 
 
-                var soldOutProducts =
-                    from prod in products
-                    where prod.UnitsInStock == 0
-                    select prod;
+                var soldOutProducts = products.Where(prod => prod.UnitsInStock == 0);
 
-                Console.WriteLine("Sold out products:");
+                Console.WriteLine("******************************************");
+                Console.WriteLine("With Lambda expression - Sold out products:");
+                Console.WriteLine();
                 foreach (var product in soldOutProducts)
                 {
                     Console.WriteLine("{0} is sold out!", product.ProductName);

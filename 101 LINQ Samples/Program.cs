@@ -50,10 +50,15 @@ namespace _101_LINQ_Samples
 
             #region 2.ProjectionOperators
 
-             LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
-             
-             samples_b.DataSetLinq6();
-             samples_b.DataSetLinq6A();
+            // Projection Operators
+            // 1. "Select" - The operator projects values on basis of a transform function
+            // 2. "SelectMany" - "The operator project the sequences of values which are based 
+            // on a transform function as well as flattens them into a single sequence
+
+            LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
+
+            samples_b.DataSetLinq6();
+            samples_b.DataSetLinq6A();
 
             // samples_b.DataSetLinq7();
             // samples_b.DataSetLinq8();

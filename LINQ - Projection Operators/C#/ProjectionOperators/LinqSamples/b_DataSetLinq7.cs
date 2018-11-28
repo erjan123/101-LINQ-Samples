@@ -9,8 +9,8 @@ namespace ProjectionOperators
 {
     public partial class LinqSamplesProjectionOperators
     {
-        [Category("Projection Operators")]
-        [Description("This sample uses select to return a sequence of just the names of a list of products.")]
+        //Projection Operators
+        //This sample uses select to return a sequence of just the names of a list of products.
         public void DataSetLinq7()
         {
             var products = testDS.Tables["Products"].AsEnumerable();
@@ -26,6 +26,25 @@ namespace ProjectionOperators
                 {
                     Console.WriteLine(productName);
                 } 
+
+            #endregion
+        }
+
+        // Linq with expression
+        public void DataSetLinq7A()
+        {
+            var products = testDS.Tables["Products"].AsEnumerable();
+
+            #region  Make Sure to try yourself before looking at the code
+
+                var productNames = products.Select(name => name.Field<string>("ProductName"));
+
+                Console.WriteLine("************************************************");
+                Console.WriteLine("Product Names:");
+                foreach (var productName in productNames)
+                {
+                    Console.WriteLine(productName);
+                }
 
             #endregion
         }

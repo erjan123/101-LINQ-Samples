@@ -57,10 +57,12 @@ namespace _101_LINQ_Samples
 
             LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
 
-            samples_b.DataSetLinq6();
-            samples_b.DataSetLinq6A();
+            //samples_b.DataSetLinq6();
+            //samples_b.DataSetLinq6A();
 
-            // samples_b.DataSetLinq7();
+             samples_b.DataSetLinq7();
+             samples_b.DataSetLinq7A();
+
             // samples_b.DataSetLinq8();
             // samples_b.DataSetLinq9();
             // samples_b.DataSetLinq10();

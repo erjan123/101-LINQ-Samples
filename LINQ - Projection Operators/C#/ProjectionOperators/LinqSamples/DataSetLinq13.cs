@@ -31,6 +31,7 @@ namespace ProjectionOperators
 
         }
 
+        // Linq with Lambda
         public void DataSetLinq13A()
         {
             //var numbers = testDS.Tables["Numbers"].AsEnumerable();

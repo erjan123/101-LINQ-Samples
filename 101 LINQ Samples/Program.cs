@@ -53,7 +53,7 @@ namespace _101_LINQ_Samples
             // Projection Operators
             // 1. "Select" - The operator projects values on basis of a transform function
             // 2. "SelectMany" - "The operator project the sequences of values which are based 
-            // on a transform function as well as flattens them into a single sequence
+            //    on a transform function as well as flattens them into a single sequence
 
             LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
 
@@ -70,11 +70,12 @@ namespace _101_LINQ_Samples
             //samples_b.DataSetLinq11();
             //samples_b.DataSetLinq11A();
             //samples_b.DataSetLinq12();
+            //samples_b.DataSetLinq13();
+            //samples_b.DataSetLinq13A();
 
-             samples_b.DataSetLinq13();
-             samples_b.DataSetLinq13A();
+            samples_b.DataSetLinq14();
+            samples_b.DataSetLinq14A();
 
-            // samples_b.DataSetLinq14();
             // samples_b.DataSetLinq15();
             // samples_b.DataSetLinq16();
             // samples_b.DataSetLinq17();

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Data;
-using System.ComponentModel;
+using System.Linq;
 
 namespace ProjectionOperators
 {
@@ -30,7 +27,7 @@ namespace ProjectionOperators
             #endregion
         }
 
-        // Linq with expression
+        // Linq with Lambda
         public void DataSetLinq7A()
         {
             var products = testDS.Tables["Products"].AsEnumerable();
@@ -40,7 +37,7 @@ namespace ProjectionOperators
                 var productNames = products.Select(name => name.Field<string>("ProductName"));
 
                 Console.WriteLine("************************************************");
-                Console.WriteLine("Product Names:");
+                Console.WriteLine("Linq with Lambda - Product Names:");
                 foreach (var productName in productNames)
                 {
                     Console.WriteLine(productName);

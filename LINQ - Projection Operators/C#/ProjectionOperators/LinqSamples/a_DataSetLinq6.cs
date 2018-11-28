@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.ComponentModel;
+﻿using LinqSamplesCommon.LinqSamplesHelpers;
+using System;
 using System.Data;
-using LinqSamplesCommon.LinqSamplesHelpers;
-
+using System.Linq;
 
 namespace ProjectionOperators
 {
@@ -44,6 +40,7 @@ namespace ProjectionOperators
             #endregion
         }
 
+        // Linq with Lambda
         public void DataSetLinq6A()
         {
             var numbers = testDS.Tables["Numbers"].AsEnumerable();

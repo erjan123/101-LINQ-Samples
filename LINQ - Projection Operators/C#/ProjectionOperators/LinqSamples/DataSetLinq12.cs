@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.ComponentModel;
 using System.Data;
+using System.Linq;
 
 namespace ProjectionOperators
 {
     public partial class LinqSamplesProjectionOperators
     {
-        [Category("Projection Operators")]
-        [Description("This sample uses an indexed Select clause to determine if the value of ints " +
-             "in an array match their position in the array.")]
+        //Projection Operators
+        //This sample uses an indexed Select clause to determine if the value of ints 
+        //in an array match their position in the array.
+        //Note: This example does not have a Query syntax
         public void DataSetLinq12()
         {
             var numbers = testDS.Tables["Numbers"].AsEnumerable();

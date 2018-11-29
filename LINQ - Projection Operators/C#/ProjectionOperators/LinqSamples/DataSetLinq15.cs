@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Data;
 using System.Linq;
-using System.Text;
-using System.ComponentModel;
-using System.Data;
-using LinqSamplesCommon.LinqSamplesHelpers;
 
 namespace ProjectionOperators
 {
     public partial class LinqSamplesProjectionOperators
     {
-        [Category("Projection Operators")]
-        [Description("This sample uses a compound from clause to select all orders where the " +
-             "order total is less than 500.00.")]
+        //Projection Operators
+        //This sample uses a compound from clause to select all orders where the
+        //order total is less than 500.00.
         public void DataSetLinq15()
         {
             var customers = testDS.Tables["Customers"].AsEnumerable();

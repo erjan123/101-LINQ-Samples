@@ -25,165 +25,170 @@ namespace _101_LINQ_Samples
         static void Main(string[] args)
         {
             #region 1.RestrictionOperators (Filtering)
-            // "where" - Filter values based on a predicate function
-            // "OfType" - Filter values based on their ability to be as a specified type
 
-            //LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
+                // "where" - Filter values based on a predicate function
+                // "OfType" - Filter values based on their ability to be as a specified type
 
-            //samples_a.Linq1();
-            //samples_a.Linq1A();
+                //LinqSamplesRestrictionOperators samples_a = new LinqSamplesRestrictionOperators();
 
-            //samples_a.Linq2();
-            //samples_a.Linq2A();
+                //samples_a.Linq1();
+                //samples_a.Linq1A();
 
-            //samples_a.Linq3();
-            //samples_a.Linq3A();
+                //samples_a.Linq2();
+                //samples_a.Linq2A();
 
-            //samples_a.Linq4();
-            //samples_a.Linq4A();
+                //samples_a.Linq3();
+                //samples_a.Linq3A();
 
-            // This sample can't be implemented with Query syntax
-            //samples_a.Linq5();
-            //samples_a.OfTypeLinq5A();
+                //samples_a.Linq4();
+                //samples_a.Linq4A();
+
+                // This sample can't be implemented with Query syntax
+                //samples_a.Linq5();
+                //samples_a.OfTypeLinq5A();
 
             #endregion RestrictionOperators
 
             #region 2.ProjectionOperators
 
-            // Projection Operators
-            // 1. "Select" - The operator projects values on basis of a transform function
-            // 2. "SelectMany" - "The operator project the sequences of values which are based 
-            //    on a transform function as well as flattens them into a single sequence
+                // Projection Operators
+                // 1. "Select" - The operator projects values on basis of a transform function
+                // 2. "SelectMany" - "The operator project the sequences of values which are based 
+                //    on a transform function as well as flattens them into a single sequence
 
-            LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
+                // LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
 
-            //samples_b.DataSetLinq6();
-            //samples_b.DataSetLinq6A();
-            //samples_b.DataSetLinq7();
-            //samples_b.DataSetLinq7A();
-            //samples_b.DataSetLinq8();
-            //samples_b.DataSetLinq8A();
-            //samples_b.DataSetLinq9();
-            //samples_b.DataSetLinq9A();
-            //samples_b.DataSetLinq10();
-            //samples_b.DataSetLinq10A();
-            //samples_b.DataSetLinq11();
-            //samples_b.DataSetLinq11A();
-            //samples_b.DataSetLinq12();
-            //samples_b.DataSetLinq13();
-            //samples_b.DataSetLinq13A();
-            //samples_b.DataSetLinq14();
-            //samples_b.DataSetLinq14A();
-            //samples_b.DataSetLinq15();
-            //samples_b.DataSetLinq16();
-            //samples_b.DataSetLinq16A();
-            //samples_b.DataSetLinq17();
-            //samples_b.DataSetLinq17A();
-            //samples_b.DataSetLinq18();
-            //samples_b.DataSetLinq18A();
-            //samples_b.DataSetLinq19();
-            //samples_b.DataSetLinq19A();
+                //samples_b.DataSetLinq6();
+                //samples_b.DataSetLinq6A();
+                //samples_b.DataSetLinq7();
+                //samples_b.DataSetLinq7A();
+                //samples_b.DataSetLinq8();
+                //samples_b.DataSetLinq8A();
+                //samples_b.DataSetLinq9();
+                //samples_b.DataSetLinq9A();
+                //samples_b.DataSetLinq10();
+                //samples_b.DataSetLinq10A();
+                //samples_b.DataSetLinq11();
+                //samples_b.DataSetLinq11A();
+                //samples_b.DataSetLinq12();
+                //samples_b.DataSetLinq13();
+                //samples_b.DataSetLinq13A();
+                //samples_b.DataSetLinq14();
+                //samples_b.DataSetLinq14A();
+                //samples_b.DataSetLinq15();
+                //samples_b.DataSetLinq16();
+                //samples_b.DataSetLinq16A();
+                //samples_b.DataSetLinq17();
+                //samples_b.DataSetLinq17A();
+                //samples_b.DataSetLinq18();
+                //samples_b.DataSetLinq18A();
+                //samples_b.DataSetLinq19();
+                //samples_b.DataSetLinq19A();
 
             #endregion
 
             #region 3.PartitioningOperators
 
-            // "Skip" - Skips some specified number of elements within a sequence and returns the 
-            //  remaining ones
-            // "SkipWhile" - Same as that of Skip with the only exception that number of 
-            // elements to skip are specified by a Boolean condition
-            // "Take" - Take a specified number of elements from a sequence and skip the remaining ones
-            // "TakeWhile" - Same as that of Take except the fact that number of elements to take are 
-            // specified by a Boolean condition
+                // "Skip" - Skips some specified number of elements within a sequence and returns the 
+                //  remaining ones
+                // "SkipWhile" - Same as that of Skip with the only exception that number of 
+                // elements to skip are specified by a Boolean condition
+                // "Take" - Take a specified number of elements from a sequence and skip the remaining ones
+                // "TakeWhile" - Same as that of Take except the fact that number of elements to take are 
+                // specified by a Boolean condition
 
-            LinqSamplesPartitioningOperators sample_c = new LinqSamplesPartitioningOperators();
+                LinqSamplesPartitioningOperators sample_c = new LinqSamplesPartitioningOperators();
 
-            // sample_c.Linq20();
-            // sample_c.Linq21();
-            // sample_c.Linq22();
-            // sample_c.Linq23();
-            // sample_c.Linq23A();
-            // sample_c.Linq24();
-            // sample_c.Linq25();
-            // sample_c.Linq26();
-            // sample_c.Linq27();
+                // sample_c.Linq20();
+                // sample_c.Linq21();
+                // sample_c.Linq22();
+                // sample_c.Linq23();
+                // sample_c.Linq23A();
+                // sample_c.Linq24();
+                // sample_c.Linq25();
+                // sample_c.Linq26();
+                // sample_c.Linq27();
 
             #endregion PartitioningOperators
 
             #region 4.OrderingOperators (Sorting Operators)
 
-            // "OrderBy" - The operator sort values in an ascending order
-            // "OrderByDescending" - The operator sort values in a descending order
-            // "ThenBy" - Executes a secondary sorting in an ascending order
-            // "ThenByDescending" - Executes a secondary sorting in a descending order
-            // "Reverse" - Performs a reversal of the order of the elements in a collection
+                // "OrderBy" - The operator sort values in an ascending order
+                // "OrderByDescending" - The operator sort values in a descending order
+                // "ThenBy" - Executes a secondary sorting in an ascending order
+                // "ThenByDescending" - Executes a secondary sorting in a descending order
+                // "Reverse" - Performs a reversal of the order of the elements in a collection
 
-            LinqSamplesOrderingOperators linqSamples_d = new LinqSamplesOrderingOperators();
+                // LinqSamplesOrderingOperators linqSamples_d = new LinqSamplesOrderingOperators();
 
-            // linqSamples_d.Linq28();
-            // linqSamples_d.Linq28A();
-            // linqSamples_d.Linq29();
-            // linqSamples_d.Linq29A();
-            // linqSamples_d.Linq30();
-            // linqSamples_d.Linq30A();
-            // linqSamples_d.Linq31();
-            // linqSamples_d.Linq32();
-            // linqSamples_d.Linq32A();
-            // linqSamples_d.Linq33();
-            // linqSamples_d.Linq33A();
-            // linqSamples_d.Linq34();
-            // linqSamples_d.Linq35();
-            // linqSamples_d.Linq35A();
-            // linqSamples_d.Linq36();
-            // linqSamples_d.Linq37();
-            // linqSamples_d.Linq37A();
-            // linqSamples_d.Linq38();
-            // linqSamples_d.Linq39();
-            // linqSamples_d.Linq39A();
+                // linqSamples_d.Linq28();
+                // linqSamples_d.Linq28A();
+                // linqSamples_d.Linq29();
+                // linqSamples_d.Linq29A();
+                // linqSamples_d.Linq30();
+                // linqSamples_d.Linq30A();
+                // linqSamples_d.Linq31();
+                // linqSamples_d.Linq32();
+                // linqSamples_d.Linq32A();
+                // linqSamples_d.Linq33();
+                // linqSamples_d.Linq33A();
+                // linqSamples_d.Linq34();
+                // linqSamples_d.Linq35();
+                // linqSamples_d.Linq35A();
+                // linqSamples_d.Linq36();
+                // linqSamples_d.Linq37();
+                // linqSamples_d.Linq37A();
+                // linqSamples_d.Linq38();
+                // linqSamples_d.Linq39();
+                // linqSamples_d.Linq39A();
 
             #endregion
 
             #region 5.GroupingOperators
 
-            // "GroupBy" - 	Organize a sequence of items in groups and return them as an IEnumerable collection 
-            // of type IGrouping<key, element>
-            // "ToLookup" - Execute a grouping operation in which a sequence of key pairs are returned
+                // "GroupBy" - 	Organize a sequence of items in groups and return them as an IEnumerable collection 
+                // of type IGrouping<key, element>
+                // "ToLookup" - Execute a grouping operation in which a sequence of key pairs are returned
 
-             LinqSamplesGroupingOperators samples_e = new LinqSamplesGroupingOperators();
+                // LinqSamplesGroupingOperators samples_e = new LinqSamplesGroupingOperators();
 
-             // samples_e.DataSetLinq40();
-             // samples_e.DataSetLinq40A();
-             // samples_e.DataSetLinq41();
-             // samples_e.DataSetLinq41A();
-             // samples_e.DataSetLinq42();
-             // samples_e.DataSetLinq42A();
-             // samples_e.DataSetLinq43();
-             // samples_e.DataSetLinq43A();
-             // samples_e.DataSetLinq44();
-             // samples_e.DataSetLinq45();
+                // samples_e.DataSetLinq40();
+                // samples_e.DataSetLinq40A();
+                // samples_e.DataSetLinq41();
+                // samples_e.DataSetLinq41A();
+                // samples_e.DataSetLinq42();
+                // samples_e.DataSetLinq42A();
+                // samples_e.DataSetLinq43();
+                // samples_e.DataSetLinq43A();
+                // samples_e.DataSetLinq44();
+                // samples_e.DataSetLinq45();
 
             #endregion
 
             #region 6.SetOperators
 
-            // "Distinct" - Results a list of unique values from a collection by filtering duplicate 
-            // data if any
-            // "Except" - Compares the values of two collections and return the ones from one 
-            // collection who are not in the other collection
-            // "Intersect" - Returns the set of values found t be identical in two separate collections
-            // "Union" - Combines content of two different collections into a single list that too 
-            // without any duplicate content
-
-            // LinqSamplesSetOperators sample_f = new LinqSamplesSetOperators();
-
-            // sample_f.Linq46();
-            // sample_f.Linq47();
-            // sample_f.Linq48();
-            // sample_f.Linq49();
-            // sample_f.Linq50();
-            // sample_f.Linq51();
-            // sample_f.Linq52();
-            // sample_f.Linq53();
+                // "Distinct" - Results a list of unique values from a collection by filtering duplicate 
+                // data if any
+                // "Except" - Compares the values of two collections and return the ones from one 
+                // collection who are not in the other collection
+                // "Intersect" - Returns the set of values found t be identical in two separate collections
+                // "Union" - Combines content of two different collections into a single list that too 
+                // without any duplicate content
+                
+                // LinqSamplesSetOperators sample_f = new LinqSamplesSetOperators();
+                
+                // sample_f.Linq46();
+                // sample_f.Linq47();
+                // sample_f.Linq47A();
+                // sample_f.Linq48();
+                // sample_f.Linq49();
+                // sample_f.Linq49A();
+                // sample_f.Linq50();
+                // sample_f.Linq51();
+                // sample_f.Linq51A();
+                // sample_f.Linq52();
+                // sample_f.Linq53();
+                // sample_f.Linq53A();
 
             #endregion
 

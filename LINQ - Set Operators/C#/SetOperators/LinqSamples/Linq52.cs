@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 
 namespace SetOperators
 {
     public partial class LinqSamplesSetOperators
     {
-        [Category("Set Operators")]
-        [Description("This sample uses Except to create a sequence that contains the values from numbersA" +
-             "that are not also in numbersB.")]
+        // Set Operators"
+        // This sample uses Except to create a sequence that contains the values from numbersA
+        // that are not also in numbersB.
         public void Linq52()
         {
             int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };

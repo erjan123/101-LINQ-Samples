@@ -1,7 +1,6 @@
 ﻿using LinqSamplesCommon.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 
 namespace SetOperators
@@ -11,16 +10,16 @@ namespace SetOperators
         private List<Products.Product> productList;
         private List<Customers.Customer> customerList;
 
-        [Category("Set Operators")]
-        [Description("This sample uses Distinct to remove duplicate elements in a sequence of " +
-            "factors of 300.")]
+        // Set Operators
+        // This sample uses Distinct to remove duplicate elements in a sequence of 
+        // factors of 300.
         public void Linq46()
         {
             int[] factorsOf300 = { 2, 2, 3, 5, 5 };
 
             #region Make Sure to try yourself before looking at the code
 
-            var uniqueFactors = factorsOf300.Distinct();
+                var uniqueFactors = factorsOf300.Distinct();
 
                 Console.WriteLine("Prime factors of 300:");
                 foreach (var f in uniqueFactors)

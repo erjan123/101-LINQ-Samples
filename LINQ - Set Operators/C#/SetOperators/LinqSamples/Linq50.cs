@@ -1,14 +1,13 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace SetOperators
 {
     public partial class LinqSamplesSetOperators
     {
-        [Category("Set Operators")]
-        [Description("This sample uses Intersect to create one sequence that contains the common values " +
-            "shared by both arrays.")]
+        // Set Operators
+        // This sample uses Intersect to create one sequence that contains the common values
+        // shared by both arrays.
         public void Linq50()
         {
             int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };

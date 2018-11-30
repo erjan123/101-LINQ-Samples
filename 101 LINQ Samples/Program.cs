@@ -253,16 +253,17 @@ namespace _101_LINQ_Samples
 
             #region 9.Generation Operators
 
-            // "DefaultIfEmpty" - When applied to an empty sequence, generate a default element 
-            // within a sequence
-            // "Empty" - Returns an empty sequence of values and is the most simplest generational operator
-            // "Range" - Generates a collection having a sequence of integers or numbers
-            // "Repeat" - Generates a sequence containing repeated values of a specific length
+             // "DefaultIfEmpty" - When applied to an empty sequence, generate a default element 
+             // within a sequence
+             // "Empty" - Returns an empty sequence of values and is the most simplest generational operator
+             // "Range" - Generates a collection having a sequence of integers or numbers
+             // "Repeat" - Generates a sequence containing repeated values of a specific length
 
-            // LinqSamplesGenerationOperators samples_i = new LinqSamplesGenerationOperators();
+             // LinqSamplesGenerationOperators samples_i = new LinqSamplesGenerationOperators();
 
-            // samples_i.Linq65();
-            // samples_i.Linq66();
+             // samples_i.Linq65();
+             // samples_i.Linq65A();
+             // samples_i.Linq66();
 
             #endregion
 

@@ -118,9 +118,11 @@ namespace _101_LINQ_Samples
             // "ThenByDescending" - Executes a secondary sorting in a descending order
             // "Reverse" - Performs a reversal of the order of the elements in a collection
 
-            // LinqSamplesOrderingOperators linqSamples_d = new LinqSamplesOrderingOperators();
-            // 
+            LinqSamplesOrderingOperators linqSamples_d = new LinqSamplesOrderingOperators();
+ 
             // linqSamples_d.Linq28();
+            // linqSamples_d.Linq28A();
+
             // linqSamples_d.Linq29();
             // linqSamples_d.Linq30();
             // linqSamples_d.Linq31();

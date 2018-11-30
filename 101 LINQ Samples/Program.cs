@@ -75,11 +75,12 @@ namespace _101_LINQ_Samples
             //samples_b.DataSetLinq14();
             //samples_b.DataSetLinq14A();
             //samples_b.DataSetLinq15();
+            //samples_b.DataSetLinq16();
+            //samples_b.DataSetLinq16A();
 
-             samples_b.DataSetLinq16();
-             samples_b.DataSetLinq16A();
+            samples_b.DataSetLinq17();
+            samples_b.DataSetLinq17A();
 
-            // samples_b.DataSetLinq17();
             // samples_b.DataSetLinq18();
             // samples_b.DataSetLinq19();
 

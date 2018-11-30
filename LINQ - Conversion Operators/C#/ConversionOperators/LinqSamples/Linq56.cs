@@ -1,14 +1,13 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace ConversionOperators
 {
     public partial class LinqSamplesConversionOperators
     {
-        [Category("Conversion Operators")]
-        [Description("This sample uses ToDictionary to immediately evaluate a sequence and a " +
-            "related key expression into a dictionary.")]
+        // Conversion Operators
+        // This sample uses ToDictionary to immediately evaluate a sequence and a 
+        // related key expression into a dictionary.
         public void Linq56()
         {
             var scoreRecords = new[] { new {Name = "Alice", Score = 50},

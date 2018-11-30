@@ -1,13 +1,12 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace ConversionOperators
 {
     public partial class LinqSamplesConversionOperators
     {
-        [Category("Conversion Operators")]
-        [Description("This sample uses OfType to return only the elements of the array that are of type double.")]
+        // Conversion Operators
+        // This sample uses OfType to return only the elements of the array that are of type double.
         public void Linq57()
         {
             object[] numbers = { null, 1.0, "two", 3, "four", 5, "six", 7.0 };

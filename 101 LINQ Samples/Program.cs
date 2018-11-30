@@ -24,7 +24,7 @@ namespace _101_LINQ_Samples
     { 
         static void Main(string[] args)
         {
-            #region 1.RestrictionOperators (Filtering)
+            #region 1.Restriction Operators (Filtering)
 
                 // "where" - Filter values based on a predicate function
                 // "OfType" - Filter values based on their ability to be as a specified type
@@ -49,7 +49,7 @@ namespace _101_LINQ_Samples
 
             #endregion RestrictionOperators
 
-            #region 2.ProjectionOperators
+            #region 2.Projection Operators
 
                 // Projection Operators
                 // 1. "Select" - The operator projects values on basis of a transform function
@@ -87,7 +87,7 @@ namespace _101_LINQ_Samples
 
             #endregion
 
-            #region 3.PartitioningOperators
+            #region 3.Partitioning Operators
 
                 // "Skip" - Skips some specified number of elements within a sequence and returns the 
                 //  remaining ones
@@ -111,7 +111,7 @@ namespace _101_LINQ_Samples
 
             #endregion PartitioningOperators
 
-            #region 4.OrderingOperators (Sorting Operators)
+            #region 4.Ordering Operators (Sorting Operators)
 
                 // "OrderBy" - The operator sort values in an ascending order
                 // "OrderByDescending" - The operator sort values in a descending order
@@ -144,7 +144,7 @@ namespace _101_LINQ_Samples
 
             #endregion
 
-            #region 5.GroupingOperators
+            #region 5.Grouping Operators
 
                 // "GroupBy" - 	Organize a sequence of items in groups and return them as an IEnumerable collection 
                 // of type IGrouping<key, element>
@@ -165,7 +165,7 @@ namespace _101_LINQ_Samples
 
             #endregion
 
-            #region 6.SetOperators
+            #region 6.Set Operators
 
                 // "Distinct" - Results a list of unique values from a collection by filtering duplicate 
                 // data if any
@@ -194,24 +194,26 @@ namespace _101_LINQ_Samples
 
             #region 7.Conversion Operators
 
-            // "AsEnumerable" - Returns the input typed as IEnumerable<T>
-            // "AsQueryable" - A (generic) IEnumerable is converted to a (generic) IQueryable
-            // "Cast" - Performs casting of elements of a collection to a specified type
-            // "OfType" - 	Filters values on basis of their , depending on their capability 
-            // to be cast to a particular type
-            // "ToArray" - 	Forces query execution and does conversion of a collection to an array
-            // "ToDictionary" - On basis of a key selector function set elements into a 
-            // Dictionary<TKey, TValue> and forces execution of a LINQ query
-            // "ToList" - Forces execution of a query by converting a collection to a List<T>
-            // "ToLookup" - Forces execution of a query and put elements into a Lookup<TKey, TElement> on 
-            // basis of a key selector function
+                // "AsEnumerable" - Returns the input typed as IEnumerable<T>
+                // "AsQueryable" - A (generic) IEnumerable is converted to a (generic) IQueryable
+                // "Cast" - Performs casting of elements of a collection to a specified type
+                // "OfType" - 	Filters values on basis of their , depending on their capability 
+                // to be cast to a particular type
+                // "ToArray" - 	Forces query execution and does conversion of a collection to an array
+                // "ToDictionary" - On basis of a key selector function set elements into a 
+                // Dictionary<TKey, TValue> and forces execution of a LINQ query
+                // "ToList" - Forces execution of a query by converting a collection to a List<T>
+                // "ToLookup" - Forces execution of a query and put elements into a Lookup<TKey, TElement> on 
+                // basis of a key selector function
 
-            // LinqSamplesConversionOperators samples_g = new LinqSamplesConversionOperators();
+                // LinqSamplesConversionOperators samples_g = new LinqSamplesConversionOperators();
 
-            // samples_g.Linq54();
-            // samples_g.Linq55();
-            // samples_g.Linq55();
-            // samples_g.Linq57();
+                // samples_g.Linq54();
+                // samples_g.Linq54A();
+                // samples_g.Linq55();
+                // samples_g.Linq55A();
+                // samples_g.Linq56();
+                // samples_g.Linq57();
 
             #endregion
 

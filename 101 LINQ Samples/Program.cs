@@ -219,35 +219,35 @@ namespace _101_LINQ_Samples
 
             #region 8.Element Operators
 
-            // "ElementAt" - Returns an element present within a specific index in a collection
-            // "ElementAtOrDefault" - 	Same as ElementAt except of the fact that it also returns 
-            // a default value in case the specific index is out of range
-            // "First" - Retrieves the first element within a collection or the first element 
-            // satisfying a specific condition
-            // "FirstOrDefault" - 	Same as First except the fact that it also returns a default 
-            // value in case there is no existence of such elements
-            // "Last" - Retrieves the last element present in a collection or the last element 
-            // satisfying a specific condition
-            // "LastOrDefault" - 	Same as Last except the fact that it also returns a default 
-            // value in case there is no existence of any such element
-            // "Single" - Returns the lone element of a collection or the lone element that sati
-            // sfy a certain condition
-            // "SingleOrDefault" - Same as Single except that it also returns a default value if 
-            // there is no existence of any such lone element
-            // "DefaultIfEmpty" - Returns a default value if the collection or list is empty or null
+                // "ElementAt" - Returns an element present within a specific index in a collection
+                // "ElementAtOrDefault" - 	Same as ElementAt except of the fact that it also returns 
+                // a default value in case the specific index is out of range
+                // "First" - Retrieves the first element within a collection or the first element 
+                // satisfying a specific condition
+                // "FirstOrDefault" - 	Same as First except the fact that it also returns a default 
+                // value in case there is no existence of such elements
+                // "Last" - Retrieves the last element present in a collection or the last element 
+                // satisfying a specific condition
+                // "LastOrDefault" - 	Same as Last except the fact that it also returns a default 
+                // value in case there is no existence of any such element
+                // "Single" - Returns the lone element of a collection or the lone element that sati
+                // sfy a certain condition
+                // "SingleOrDefault" - Same as Single except that it also returns a default value if 
+                // there is no existence of any such lone element
+                // "DefaultIfEmpty" - Returns a default value if the collection or list is empty or null
 
-            // Note: The sample 60 and 63 are missing.These are actually missing
-            // from the oginal project (or site)
+                // Note: The sample 60 and 63 are missing.These are actually missing
+                // from the oginal project (or site)
 
+                // LinqSamplesElementOperators samples_h = new LinqSamplesElementOperators();
 
-
-            // LinqSamplesElementOperators samples_h = new LinqSamplesElementOperators();
-
-            // samples_h.Linq58();
-            // samples_h.Linq59();
-            // samples_h.Linq61();
-            // samples_h.Linq62();
-            // samples_h.Linq64();
+                // samples_h.Linq58();
+                // samples_h.Linq58A();
+                // samples_h.Linq59();
+                // samples_h.Linq61();
+                // samples_h.Linq62();
+                // samples_h.Linq64();
+                // samples_h.Linq64A();
 
             #endregion
 

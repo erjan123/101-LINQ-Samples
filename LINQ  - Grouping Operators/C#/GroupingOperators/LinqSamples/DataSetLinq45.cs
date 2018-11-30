@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Linq;
-using System.ComponentModel;
 using System.Data;
+using System.Linq;
 
 namespace GroupingOperators
 {
     public partial class LinqSamplesGroupingOperators
     {
-        [Category("Grouping Operators")]
-        [Description("This sample uses GroupBy to partition trimmed elements of an array using " +
-             "a custom comparer that matches words that are anagrams of each other, " +
-             "and then converts the results to uppercase.")]
+        // Grouping Operators
+        // This sample uses GroupBy to partition trimmed elements of an array using 
+        // a custom comparer that matches words that are anagrams of each other, 
+        // and then converts the results to uppercase.
         public void DataSetLinq45()
         {
             var anagrams = testDS.Tables["Anagrams"].AsEnumerable();

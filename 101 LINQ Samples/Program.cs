@@ -127,8 +127,8 @@ namespace _101_LINQ_Samples
             // linqSamples_d.Linq30();
             // linqSamples_d.Linq30A();
             // linqSamples_d.Linq31();
-            //linqSamples_d.Linq32();
-            //linqSamples_d.Linq32A();
+            // linqSamples_d.Linq32();
+            // linqSamples_d.Linq32A();
             // linqSamples_d.Linq33();
             // linqSamples_d.Linq33A();
             // linqSamples_d.Linq34();
@@ -149,14 +149,18 @@ namespace _101_LINQ_Samples
             // of type IGrouping<key, element>
             // "ToLookup" - Execute a grouping operation in which a sequence of key pairs are returned
 
-            // LinqSamplesGroupingOperators samples_e = new LinqSamplesGroupingOperators();
+             LinqSamplesGroupingOperators samples_e = new LinqSamplesGroupingOperators();
 
-            // samples_e.DataSetLinq40();
-            // samples_e.DataSetLinq41();
-            // samples_e.DataSetLinq42();
-            // samples_e.DataSetLinq43();
-            // samples_e.DataSetLinq44();
-            // samples_e.DataSetLinq45();
+             // samples_e.DataSetLinq40();
+             // samples_e.DataSetLinq40A();
+             // samples_e.DataSetLinq41();
+             // samples_e.DataSetLinq41A();
+             // samples_e.DataSetLinq42();
+             // samples_e.DataSetLinq42A();
+             // samples_e.DataSetLinq43();
+             // samples_e.DataSetLinq43A();
+             // samples_e.DataSetLinq44();
+             // samples_e.DataSetLinq45();
 
             #endregion
 

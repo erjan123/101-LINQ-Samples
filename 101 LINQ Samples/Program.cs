@@ -119,25 +119,27 @@ namespace _101_LINQ_Samples
             // "Reverse" - Performs a reversal of the order of the elements in a collection
 
             LinqSamplesOrderingOperators linqSamples_d = new LinqSamplesOrderingOperators();
- 
+
             // linqSamples_d.Linq28();
             // linqSamples_d.Linq28A();
             // linqSamples_d.Linq29();
             // linqSamples_d.Linq29A();
-
-            linqSamples_d.Linq30();
-            linqSamples_d.Linq30A();
-
+            // linqSamples_d.Linq30();
+            // linqSamples_d.Linq30A();
             // linqSamples_d.Linq31();
-            // linqSamples_d.Linq31();
-            // linqSamples_d.Linq32();
+            //linqSamples_d.Linq32();
+            //linqSamples_d.Linq32A();
             // linqSamples_d.Linq33();
+            // linqSamples_d.Linq33A();
             // linqSamples_d.Linq34();
             // linqSamples_d.Linq35();
+            // linqSamples_d.Linq35A();
             // linqSamples_d.Linq36();
             // linqSamples_d.Linq37();
+            // linqSamples_d.Linq37A();
             // linqSamples_d.Linq38();
             // linqSamples_d.Linq39();
+            // linqSamples_d.Linq39A();
 
             #endregion
 

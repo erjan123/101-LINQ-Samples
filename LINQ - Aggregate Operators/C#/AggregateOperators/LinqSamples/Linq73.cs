@@ -20,9 +20,9 @@ namespace AggregateOperators
 
             #region MyRegion
 
-            int uniqueFactors = primeFactorsOf300.Distinct().Count();
+                int uniqueFactors = primeFactorsOf300.Distinct().Count();
 
-            Console.WriteLine("There are {0} unique prime factors of 300.", uniqueFactors);
+                Console.WriteLine("There are {0} unique prime factors of 300.", uniqueFactors);
 
             #endregion
         }

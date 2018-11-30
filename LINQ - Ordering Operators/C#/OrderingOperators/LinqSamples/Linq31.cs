@@ -1,14 +1,13 @@
 ﻿using LinqSamplesCommon.LinqSamplesHelpers;
-using System.ComponentModel;
 using System.Linq;
 
 namespace OrderingOperators
 {
     public partial class LinqSamplesOrderingOperators
     {
-        [Category("Ordering Operators")]
-        [Description("This sample uses an OrderBy clause with a custom comparer to " +
-             "do a case-insensitive sort of the words in an array.")]
+        // Ordering Operators
+        // This sample uses an OrderBy clause with a custom comparer to 
+        // do a case-insensitive sort of the words in an array.
         public void Linq31()
         {
             string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };

@@ -1,15 +1,15 @@
 ﻿using LinqSamplesCommon.LinqSamplesHelpers;
-using System.ComponentModel;
+using System;
 using System.Linq;
 
 namespace OrderingOperators
 {
     public partial class LinqSamplesOrderingOperators
     {
-        [Category("Ordering Operators")]
-        [Description("The first query in this sample uses method syntax to call OrderBy and ThenBy with a custom comparer to " +
-             "sort first by word length and then by a case-insensitive sort of the words in an array. " +
-             "The second two queries show another way to perform the same task.")]
+        // Ordering Operators
+        // The first query in this sample uses method syntax to call OrderBy and ThenBy with a custom comparer to " +
+        // sort first by word length and then by a case-insensitive sort of the words in an array. 
+        // The second two queries show another way to perform the same task.
         public void Linq36()
         {
             string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
@@ -28,8 +28,11 @@ namespace OrderingOperators
 
                 var sortedWords3 = sortedWords2.ThenBy(a => a, new CaseInsensitiveComparer());
 
+                Console.WriteLine("Both examples are from 101 Linq() examples");
                 ObjectDumper.Write(sortedWords);
 
+                Console.WriteLine();
+                Console.WriteLine("********************************");
                 ObjectDumper.Write(sortedWords3);
 
             #endregion

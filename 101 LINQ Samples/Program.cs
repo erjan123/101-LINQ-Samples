@@ -122,9 +122,12 @@ namespace _101_LINQ_Samples
  
             // linqSamples_d.Linq28();
             // linqSamples_d.Linq28A();
-
             // linqSamples_d.Linq29();
-            // linqSamples_d.Linq30();
+            // linqSamples_d.Linq29A();
+
+            linqSamples_d.Linq30();
+            linqSamples_d.Linq30A();
+
             // linqSamples_d.Linq31();
             // linqSamples_d.Linq31();
             // linqSamples_d.Linq32();

@@ -96,12 +96,13 @@ namespace _101_LINQ_Samples
             // "TakeWhile" - Same as that of Take except the fact that number of elements to take are 
             // specified by a Boolean condition
 
-            // LinqSamplesPartitioningOperators sample_c = new LinqSamplesPartitioningOperators();
+            LinqSamplesPartitioningOperators sample_c = new LinqSamplesPartitioningOperators();
 
             // sample_c.Linq20();
             // sample_c.Linq21();
             // sample_c.Linq22();
             // sample_c.Linq23();
+            // sample_c.Linq23A();
             // sample_c.Linq24();
             // sample_c.Linq25();
             // sample_c.Linq26();

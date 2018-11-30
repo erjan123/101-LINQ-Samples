@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 using Customer = LinqSamplesCommon.Model.Customers;
 
@@ -7,9 +6,9 @@ namespace PartitioningOperators
 {
     public partial class LinqSamplesPartitioningOperators
     {
-        [Category("Partitioning Operators")]
-        [Description("This sample uses Take to get the first 3 orders from customers " +
-             "in Washington.")]
+        // Partitioning Operators
+        // This sample uses Take to get the first 3 orders from customers
+        // in Washington.
         public void Linq21()
         {
            var customers = Customer.GetCustomerList();

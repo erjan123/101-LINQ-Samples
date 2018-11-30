@@ -1,14 +1,12 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace PartitioningOperators
 {
     public partial class LinqSamplesPartitioningOperators
     {
-        [Category("Partitioning Operators")]
-        [Description("This sample uses Skip to get all but the first four elements of " +
-             "the array.")]
+        // Partitioning Operators
+        // This sample uses Skip to get all but the first four elements of the array.
         public void Linq22()
         {
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };

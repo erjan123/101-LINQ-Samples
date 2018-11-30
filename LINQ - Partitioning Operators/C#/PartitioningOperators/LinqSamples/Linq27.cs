@@ -1,14 +1,13 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace PartitioningOperators
 {
     public partial class LinqSamplesPartitioningOperators
     {
-        [Category("Partitioning Operators")]
-        [Description("This sample uses SkipWhile to get the elements of the array " +
-            "starting from the first element less than its position.")]
+        // Partitioning OperatSors
+        // This sample uses SkipWhile to get the elements of the array
+        // starting from the first element less than its position (index).
         public void Linq27()
         {
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };

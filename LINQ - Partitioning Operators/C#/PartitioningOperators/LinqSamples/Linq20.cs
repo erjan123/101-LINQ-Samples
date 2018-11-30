@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace PartitioningOperators
@@ -22,23 +21,6 @@ namespace PartitioningOperators
                 {
                     Console.WriteLine(n);
                 }
-
-            #endregion
-        }
-
-        public void Linq20A()
-        {
-            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-            #region Make Sure to try yourself before looking at the code
-
-            var first3Numbers = numbers.Take(3);
-
-            Console.WriteLine("First 3 numbers:");
-            foreach (var n in first3Numbers)
-            {
-                Console.WriteLine(n);
-            }
 
             #endregion
         }

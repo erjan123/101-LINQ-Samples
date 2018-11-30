@@ -1,15 +1,14 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 
 namespace PartitioningOperators
 {
     public partial class LinqSamplesPartitioningOperators
     {
-        [Category("Partitioning Operators")]
-        [Description("This sample uses TakeWhile to return elements starting from the " +
-            "beginning of the array until a number is hit that is less than its position " +
-            "in the array.")]
+        // Partitioning Operators
+        // This sample uses TakeWhile to return elements starting from the
+        // beginning of the array until a number is hit that is less than its position (index)
+        // in the array.
         public void Linq25()
         {
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };

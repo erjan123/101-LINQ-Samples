@@ -55,7 +55,7 @@ namespace ProjectionOperators
 
             #endregion
 
-            #region  Make Sure to try yourself before looking at the code
+            #region Lambda syntax and join - Make Sure to try yourself before looking at the code
                 // Note: In Linq Lambda syntax "let" becomes "Select", however this
                 // example is not a good example to demonstrate "let" conversion
                 var myOrders2 =

@@ -81,13 +81,20 @@ namespace _101_LINQ_Samples
             //samples_b.DataSetLinq17A();
             //samples_b.DataSetLinq18();
             //samples_b.DataSetLinq18A();
-
-            samples_b.DataSetLinq19();
-            samples_b.DataSetLinq19A();
+            //samples_b.DataSetLinq19();
+            //samples_b.DataSetLinq19A();
 
             #endregion
 
             #region 3.PartitioningOperators
+
+            // "Skip" - Skips some specified number of elements within a sequence and returns the 
+            //  remaining ones
+            // "SkipWhile" - Same as that of Skip with the only exception that number of 
+            // elements to skip are specified by a Boolean condition
+            // "Take" - Take a specified number of elements from a sequence and skip the remaining ones
+            // "TakeWhile" - Same as that of Take except the fact that number of elements to take are 
+            // specified by a Boolean condition
 
             // LinqSamplesPartitioningOperators sample_c = new LinqSamplesPartitioningOperators();
 
@@ -102,7 +109,13 @@ namespace _101_LINQ_Samples
 
             #endregion PartitioningOperators
 
-            #region 4.OrderingOperators
+            #region 4.OrderingOperators (Sorting Operators)
+
+            // "OrderBy" - The operator sort values in an ascending order
+            // "OrderByDescending" - The operator sort values in a descending order
+            // "ThenBy" - Executes a secondary sorting in an ascending order
+            // "ThenByDescending" - Executes a secondary sorting in a descending order
+            // "Reverse" - Performs a reversal of the order of the elements in a collection
 
             // LinqSamplesOrderingOperators linqSamples_d = new LinqSamplesOrderingOperators();
             // 
@@ -124,6 +137,10 @@ namespace _101_LINQ_Samples
 
             #region 5.GroupingOperators
 
+            // "GroupBy" - 	Organize a sequence of items in groups and return them as an IEnumerable collection 
+            // of type IGrouping<key, element>
+            // "ToLookup" - Execute a grouping operation in which a sequence of key pairs are returned
+
             // LinqSamplesGroupingOperators samples_e = new LinqSamplesGroupingOperators();
 
             // samples_e.DataSetLinq40();
@@ -136,6 +153,14 @@ namespace _101_LINQ_Samples
             #endregion
 
             #region 6.SetOperators
+
+            // "Distinct" - Results a list of unique values from a collection by filtering duplicate 
+            // data if any
+            // "Except" - Compares the values of two collections and return the ones from one 
+            // collection who are not in the other collection
+            // "Intersect" - Returns the set of values found t be identical in two separate collections
+            // "Union" - Combines content of two different collections into a single list that too 
+            // without any duplicate content
 
             // LinqSamplesSetOperators sample_f = new LinqSamplesSetOperators();
 
@@ -152,6 +177,18 @@ namespace _101_LINQ_Samples
 
             #region 7.Conversion Operators
 
+            // "AsEnumerable" - Returns the input typed as IEnumerable<T>
+            // "AsQueryable" - A (generic) IEnumerable is converted to a (generic) IQueryable
+            // "Cast" - Performs casting of elements of a collection to a specified type
+            // "OfType" - 	Filters values on basis of their , depending on their capability 
+            // to be cast to a particular type
+            // "ToArray" - 	Forces query execution and does conversion of a collection to an array
+            // "ToDictionary" - On basis of a key selector function set elements into a 
+            // Dictionary<TKey, TValue> and forces execution of a LINQ query
+            // "ToList" - Forces execution of a query by converting a collection to a List<T>
+            // "ToLookup" - Forces execution of a query and put elements into a Lookup<TKey, TElement> on 
+            // basis of a key selector function
+
             // LinqSamplesConversionOperators samples_g = new LinqSamplesConversionOperators();
 
             // samples_g.Linq54();
@@ -163,8 +200,27 @@ namespace _101_LINQ_Samples
 
             #region 8.Element Operators
 
+            // "ElementAt" - Returns an element present within a specific index in a collection
+            // "ElementAtOrDefault" - 	Same as ElementAt except of the fact that it also returns 
+            // a default value in case the specific index is out of range
+            // "First" - Retrieves the first element within a collection or the first element 
+            // satisfying a specific condition
+            // "FirstOrDefault" - 	Same as First except the fact that it also returns a default 
+            // value in case there is no existence of such elements
+            // "Last" - Retrieves the last element present in a collection or the last element 
+            // satisfying a specific condition
+            // "LastOrDefault" - 	Same as Last except the fact that it also returns a default 
+            // value in case there is no existence of any such element
+            // "Single" - Returns the lone element of a collection or the lone element that sati
+            // sfy a certain condition
+            // "SingleOrDefault" - Same as Single except that it also returns a default value if 
+            // there is no existence of any such lone element
+            // "DefaultIfEmpty" - Returns a default value if the collection or list is empty or null
+
             // Note: The sample 60 and 63 are missing.These are actually missing
             // from the oginal project (or site)
+
+
 
             // LinqSamplesElementOperators samples_h = new LinqSamplesElementOperators();
 
@@ -178,6 +234,12 @@ namespace _101_LINQ_Samples
 
             #region 9.Generation Operators
 
+            // "DefaultIfEmpty" - When applied to an empty sequence, generate a default element 
+            // within a sequence
+            // "Empty" - Returns an empty sequence of values and is the most simplest generational operator
+            // "Range" - Generates a collection having a sequence of integers or numbers
+            // "Repeat" - Generates a sequence containing repeated values of a specific length
+
             // LinqSamplesGenerationOperators samples_i = new LinqSamplesGenerationOperators();
 
             // samples_i.Linq65();
@@ -186,6 +248,14 @@ namespace _101_LINQ_Samples
             #endregion
 
             #region 10.Quantifiers
+
+            // "All" - Returns a value ‘True’ if all elements of a sequence satisfy a predicate condition
+            // "Any" - Determines by searching a sequence that whether any element of the same 
+            // satisfy a specified condition
+            // "Contains" - 	Returns a ‘True’ value if finds that a specific element is there in a 
+            // sequence if the sequence doe not contains that specific element , ‘false’ value is returned
+
+
             // Note: The sample 68 and 71 are missing.These are actually missing
             // from the oginal project (or site)
 
@@ -199,6 +269,14 @@ namespace _101_LINQ_Samples
             #endregion
 
             #region 11.Aggregate Operators
+
+            // "Aggregate" - Operates on the values of a collection to perform custom aggregation operation 
+            // "Average" - Average value of a collection of values is calculated 
+            // "Count" - Counts the elements satisfying a predicate function within collection
+            // "LonCount" - Counts the elements satisfying a predicate function within a huge collection
+            // "Max" - Find out the maximum value within a collection
+            // "Min" - Find out the minimum value existing within a collection
+            // "Sum" - Find out the sum of a values within a collection
 
             // LinqSamplesAggregateOperators samples_k = new LinqSamplesAggregateOperators();
             // 
@@ -227,6 +305,9 @@ namespace _101_LINQ_Samples
 
             #region 12.Miscellaneous Operators
 
+            // "Concat" - Two sequences are concatenated for the formation of a single one sequence.
+            // "EqualAll" - To see if two sequences match on all elements in the same order
+
             // LinqSamplesMiscellaneousOperators samples_l = new LinqSamplesMiscellaneousOperators();
             // 
             // samples_l.Linq94();
@@ -238,6 +319,7 @@ namespace _101_LINQ_Samples
 
             #region 13.Custom Sequence Operators
 
+            // "Combine" - 
             // LinqSamplesCustomSequenceOperators samples_m = new LinqSamplesCustomSequenceOperators();
 
             //samples_m.DataSetLinq98();
@@ -245,6 +327,10 @@ namespace _101_LINQ_Samples
             #endregion
 
             #region 14.Query Execution
+
+            // "Deferred Execution" - 
+            // "Immediate Execution" - 
+            // "Query Reuse" - 
 
             //LinqSamplesQueryExecution samples_n = new LinqSamplesQueryExecution();
 

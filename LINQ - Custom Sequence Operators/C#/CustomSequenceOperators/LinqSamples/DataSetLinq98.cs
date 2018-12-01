@@ -1,10 +1,8 @@
-﻿using System;
+﻿using LinqSamplesCommon.LinqSamplesHelpers;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.ComponentModel;
 using System.Data;
-using LinqSamplesCommon.LinqSamplesHelpers;
+using System.Linq;
 
 namespace CustomSequenceOperators
 {
@@ -25,21 +23,28 @@ namespace CustomSequenceOperators
     {
         private DataSet testDS;
 
-
-
         public LinqSamplesCustomSequenceOperators()
         {
             testDS = TestHelper.CreateTestDataset();
         }
-        [Category("Custom Sequence Operators")]
-        [Description("This sample uses a user-created sequence operator, Combine, to calculate the " +
-             "dot product of two vectors.")]
+
+        //Custom Sequence Operators
+        //This sample uses a user-created sequence operator, Combine, to calculate the
+        //dot product of two vectors.
         public void DataSetLinq98()
         {
             var numbersA = testDS.Tables["NumbersA"].AsEnumerable();
             var numbersB = testDS.Tables["NumbersB"].AsEnumerable();
 
-            int dotProduct = numbersA.Combine(numbersB, (a, b) => a.Field<int>("number") * b.Field<int>("number")).Sum();
+            #region Make Sure to try yourself before looking at the code
+
+                int dotProduct = numbersA.Combine(
+                                    numbersB, 
+                                    (a, b) => a.Field<int>("number") * b.Field<int>("number")).Sum();
+
+            #endregion
+
+            Console.WriteLine("Orginal 101 Linq examples.");
             Console.WriteLine("Dot product: {0}", dotProduct);
         }
     }

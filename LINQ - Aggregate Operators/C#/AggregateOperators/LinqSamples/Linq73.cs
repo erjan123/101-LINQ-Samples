@@ -1,9 +1,7 @@
-﻿using System;
+﻿using LinqSamplesCommon.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.ComponentModel;
-using LinqSamplesCommon.Model;
 
 namespace AggregateOperators
 {
@@ -12,13 +10,13 @@ namespace AggregateOperators
         private List<Products.Product> productList = Products.GetProductList();
         private List<Customers.Customer> customerList = Customers.GetCustomerList();
 
-        [Category("Aggregate Operators")]
-        [Description("This sample uses Count to get the number of unique prime factors of 300.")]
+        //Aggregate Operators
+        //This sample uses Count (and distinct) to get the number of unique prime factors of 300.
         public void Linq73()
         {
             int[] primeFactorsOf300 = { 2, 2, 3, 5, 5 };
 
-            #region MyRegion
+            #region Make Sure to try yourself before looking at the code
 
                 int uniqueFactors = primeFactorsOf300.Distinct().Count();
 

@@ -1,21 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.ComponentModel;
 
 namespace AggregateOperators
 {
     public partial class LinqSamplesAggregateOperators
     {
-        [Category("Aggregate Operators")]
-        [Description("This sample uses Average to get the average of all numbers in an array.")]
+        //Aggregate Operators
+        //This sample uses Average to get the average of all numbers in an array.
         public void Linq89()
         {
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-            double averageNum = numbers.Average();
+            #region Make Sure to try yourself before looking at the code
 
+                double averageNum = numbers.Average();
+
+            #endregion
+
+            Console.WriteLine("Orginal 101 Linq examples.");
             Console.WriteLine("The average number is {0}.", averageNum);
         }
     }

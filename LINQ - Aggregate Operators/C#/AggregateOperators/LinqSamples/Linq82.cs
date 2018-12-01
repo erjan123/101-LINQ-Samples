@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.ComponentModel;
+using System.Linq;
 
 namespace AggregateOperators
 {
@@ -14,7 +12,11 @@ namespace AggregateOperators
         {
             string[] words = { "cherry", "apple", "blueberry" };
 
-            int shortestWord = words.Min(w => w.Length);
+            #region Make Sure to try yourself before looking at the code
+
+                int shortestWord = words.Min(w => w.Length);
+
+            #endregion
 
             Console.WriteLine("The shortest word is {0} characters long.", shortestWord);
         }

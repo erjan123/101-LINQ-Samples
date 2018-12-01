@@ -292,36 +292,44 @@ namespace _101_LINQ_Samples
 
             #region 11.Aggregate Operators
 
-            // "Aggregate" - Operates on the values of a collection to perform custom aggregation operation 
-            // "Average" - Average value of a collection of values is calculated 
-            // "Count" - Counts the elements satisfying a predicate function within collection
-            // "LonCount" - Counts the elements satisfying a predicate function within a huge collection
-            // "Max" - Find out the maximum value within a collection
-            // "Min" - Find out the minimum value existing within a collection
-            // "Sum" - Find out the sum of a values within a collection
+                // "Aggregate" - Operates on the values of a collection to perform custom aggregation operation 
+                // "Average" - Average value of a collection of values is calculated 
+                // "Count" - Counts the elements satisfying a predicate function within collection
+                // "LonCount" - Counts the elements satisfying a predicate function within a huge collection
+                // "Max" - Find out the maximum value within a collection
+                // "Min" - Find out the minimum value existing within a collection
+                // "Sum" - Find out the sum of a values within a collection
 
-            // LinqSamplesAggregateOperators samples_k = new LinqSamplesAggregateOperators();
-            // 
-            // samples_k.Linq73();
-            // samples_k.Linq74();
-            // samples_k.Linq76();
-            // samples_k.Linq77();
-            // samples_k.Linq78();
-            // samples_k.Linq79();
-            // samples_k.Linq80();
-            // samples_k.Linq81();
-            // samples_k.Linq82();
-            // samples_k.Linq83();
-            // samples_k.Linq84();
-            // samples_k.Linq85();
-            // samples_k.Linq86();
-            // samples_k.Linq87();
-            // samples_k.Linq88();
-            // samples_k.Linq89();
-            // samples_k.Linq90();
-            // samples_k.Linq91();
-            // samples_k.Linq92();
-            // samples_k.Linq93();
+                //LinqSamplesAggregateOperators samples_k = new LinqSamplesAggregateOperators();
+
+                //samples_k.Linq73();
+                //samples_k.Linq74();
+                //samples_k.Linq76();
+                //samples_k.Linq76A();
+                //samples_k.Linq77();
+                //samples_k.Linq77A();
+                //samples_k.Linq78();
+                //samples_k.Linq79();
+                //samples_k.Linq80();
+                //samples_k.Linq80A();
+                //samples_k.Linq81();
+                //samples_k.Linq82();
+                //samples_k.Linq83();
+                //samples_k.Linq83A();
+                //samples_k.Linq84();
+                //samples_k.Linq84A();
+                //samples_k.Linq85();
+                //samples_k.Linq86();
+                //samples_k.Linq87();
+                //samples_k.Linq87A();
+                //samples_k.Linq88();
+                //samples_k.Linq88A();
+                //samples_k.Linq89();
+                //samples_k.Linq90();
+                //samples_k.Linq91();
+                //samples_k.Linq91A();
+                //samples_k.Linq92();
+                //samples_k.Linq93();
 
             #endregion
 

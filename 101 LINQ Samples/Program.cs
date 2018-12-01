@@ -269,22 +269,24 @@ namespace _101_LINQ_Samples
 
             #region 10.Quantifiers
 
-            // "All" - Returns a value ‘True’ if all elements of a sequence satisfy a predicate condition
-            // "Any" - Determines by searching a sequence that whether any element of the same 
-            // satisfy a specified condition
-            // "Contains" - 	Returns a ‘True’ value if finds that a specific element is there in a 
-            // sequence if the sequence doe not contains that specific element , ‘false’ value is returned
+                 // "All" - Returns a value ‘True’ if all elements of a sequence satisfy a predicate condition
+                 // "Any" - Determines by searching a sequence that whether any element of the same 
+                 // satisfy a specified condition
+                 // "Contains" - 	Returns a ‘True’ value if finds that a specific element is there in a 
+                 // sequence if the sequence doe not contains that specific element , ‘false’ value is returned
 
 
-            // Note: The sample 68 and 71 are missing.These are actually missing
-            // from the oginal project (or site)
+                 // Note: The sample 68 and 71 are missing.These are actually missing
+                 // from the oginal project (or site)
 
-            // LinqSamplesQuantifiers samples_j = new LinqSamplesQuantifiers();
+                 // LinqSamplesQuantifiers samples_j = new LinqSamplesQuantifiers();
 
-            // samples_j.Linq67();
-            // samples_j.Linq69();
-            // samples_j.Linq70();
-            // samples_j.Linq72();
+                 // samples_j.Linq67();
+                 // samples_j.Linq69();
+                 // samples_j.Linq69A();
+                 // samples_j.Linq70();
+                 // samples_j.Linq72();
+                 // samples_j.Linq72A();
 
             #endregion
 

@@ -23,8 +23,12 @@ namespace GenerationOperators
         //Linq with Lambda
         public void Linq65A()
         {
-            var numbers = Enumerable.Range(100, 50)
+            #region Linq with Lambda - Make Sure to try yourself before looking at the code
+
+                var numbers = Enumerable.Range(100, 50)
                             .Select(n => new { Number = n, OddEven = n % 2 == 1 ? "odd" : "even" });
+
+            #endregion
 
             Console.WriteLine();
             Console.WriteLine("***********************");

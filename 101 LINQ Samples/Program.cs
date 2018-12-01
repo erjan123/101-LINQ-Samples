@@ -335,15 +335,16 @@ namespace _101_LINQ_Samples
 
             #region 12.Miscellaneous Operators
 
-            // "Concat" - Two sequences are concatenated for the formation of a single one sequence.
-            // "EqualAll" - To see if two sequences match on all elements in the same order
+                // "Concat" - Two sequences are concatenated for the formation of a single one sequence.
+                // "EqualAll" - To see if two sequences match on all elements in the same order
 
-            // LinqSamplesMiscellaneousOperators samples_l = new LinqSamplesMiscellaneousOperators();
-            // 
-            // samples_l.Linq94();
-            // samples_l.Linq95();
-            // samples_l.Linq96();
-            // samples_l.Linq97();
+                //LinqSamplesMiscellaneousOperators samples_l = new LinqSamplesMiscellaneousOperators();
+ 
+                //samples_l.Linq94();
+                //samples_l.Linq95();
+                //samples_l.Linq95A();
+                //samples_l.Linq96();
+                //samples_l.Linq97();
 
             #endregion
 

@@ -1,9 +1,7 @@
-﻿using System;
+﻿using LinqSamplesCommon.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.ComponentModel;
-using LinqSamplesCommon.Model;
 
 namespace QueryExecution
 {
@@ -12,9 +10,9 @@ namespace QueryExecution
         private List<Products.Product> productList = Products.GetProductList();
         private List<Customers.Customer> customerList = Customers.GetCustomerList();
 
-        [Category("Query Execution")]
-        [Description("The following sample shows how query execution is deferred until the query is " +
-             "enumerated at a foreach statement.")]
+        //Query Execution
+        //The following sample shows how query execution is deferred until the query is 
+        //enumerated at a foreach statement.
         public void Linq99()
         {
 

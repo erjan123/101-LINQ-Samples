@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.ComponentModel;
 
 namespace QueryExecution
 {
     public partial class LinqSamplesQueryExecution
     {
-        [Category("Query Execution")]
-        [Description("The following sample shows how, because of deferred execution, queries can be used " +
-             "again after data changes and will then operate on the new data.")]
+        //Query Execution
+        //The following sample shows how, because of deferred execution, queries can be used
+        //again after data changes and will then operate on the new data.
         public void Linq101()
         {
 

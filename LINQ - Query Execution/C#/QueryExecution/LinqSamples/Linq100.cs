@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.ComponentModel;
 
 namespace QueryExecution
 {
     public partial class LinqSamplesQueryExecution
     {
-        [Category("Query Execution")]
-        [Description("The following sample shows how queries can be executed immediately, and their results " +
-            " stored in memory, with methods such as ToList.")]
+        //Query Execution
+        //The following sample shows how queries can be executed immediately, and their results 
+        //stored in memory, with methods such as ToList.
         public void Linq100()
         {
-
             // Methods like ToList(), Max(), and Count() cause the query to be
             // executed immediately.            
             int[] numbers = new int[] { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };

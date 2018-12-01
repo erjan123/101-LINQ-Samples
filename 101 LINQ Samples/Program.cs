@@ -359,16 +359,15 @@ namespace _101_LINQ_Samples
 
             #region 14.Query Execution
 
-            // "Deferred Execution" - 
-            // "Immediate Execution" - 
-            // "Query Reuse" - 
+                // "Deferred Execution" - 
+                // "Immediate Execution" - 
+                // "Query Reuse" - 
 
-            //LinqSamplesQueryExecution samples_n = new LinqSamplesQueryExecution();
+                //LinqSamplesQueryExecution samples_n = new LinqSamplesQueryExecution();
 
-            //samples_n.Linq99();
-            //samples_n.Linq100();
-            //samples_n.Linq101();
-
+                //samples_n.Linq99();
+                //samples_n.Linq100();
+                //samples_n.Linq101();
 
             #endregion
 

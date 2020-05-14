@@ -20,7 +20,7 @@ using JoinOperators;
 
 namespace _101_LINQ_Samples
 {
-    class Program
+    class Program 
     { 
         static void Main(string[] args)
         {
